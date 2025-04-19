@@ -1,0 +1,122 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "adr-tools@3.0.0": {
+      "last_modified": "2025-04-06T11:26:02Z",
+      "resolved": "github:NixOS/nixpkgs/74a40410369a1c35ee09b8a1abee6f4acbedc059#adr-tools",
+      "source": "devbox-search",
+      "version": "3.0.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4jh7bljvxbvpjvl27f4hapa26bqv2gvp-adr-tools-3.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/4jh7bljvxbvpjvl27f4hapa26bqv2gvp-adr-tools-3.0.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/28hs945b1r1br7qd4g519kaxg3my30w4-adr-tools-3.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/28hs945b1r1br7qd4g519kaxg3my30w4-adr-tools-3.0.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8vd7paaqw861mgq1593vir62qam0sb9x-adr-tools-3.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8vd7paaqw861mgq1593vir62qam0sb9x-adr-tools-3.0.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4mjd657iz62x8nqcky0602h01kyvxnn0-adr-tools-3.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/4mjd657iz62x8nqcky0602h01kyvxnn0-adr-tools-3.0.0"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-04-13T09:22:33Z",
+      "resolved": "github:NixOS/nixpkgs/18dd725c29603f582cf1900e0d25f9f1063dbf11?lastModified=1744536153&narHash=sha256-awS2zRgF4uTwrOKwwiJcByDzDOdo3Q1rPZbiHQg%2FN38%3D"
+    },
+    "ruby@2.7.8": {
+      "last_modified": "2023-04-13T03:55:09Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/96ba1c52e54e74c3197f4d43026b3f3d92e83ff9#ruby",
+      "source": "devbox-search",
+      "version": "2.7.8",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qv28shcch8h8wmln270k138yjsl76hw1-ruby-2.7.8",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/fsxlky5rqkv5a7k0qw44rlkjp4523264-ruby-2.7.8-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/qv28shcch8h8wmln270k138yjsl76hw1-ruby-2.7.8"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vs52hm8jbwgx19plicg02dzz2vmvbyy5-ruby-2.7.8",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/5syvk3lqyrrw4jis0mfhwf9j9asbv0aw-ruby-2.7.8-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/vs52hm8jbwgx19plicg02dzz2vmvbyy5-ruby-2.7.8"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3ac1xs38vf5162032xwpss309bj5jb3y-ruby-2.7.8",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/cr10qs7jzw4mc40jk18q77i7ij965qnn-ruby-2.7.8-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/3ac1xs38vf5162032xwpss309bj5jb3y-ruby-2.7.8"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fj3gpdgx5fhm3ih25xb6wv01rzd3b9dw-ruby-2.7.8",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/1w62k50fig5arm8yi0bl6cga5bk9dykc-ruby-2.7.8-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/fj3gpdgx5fhm3ih25xb6wv01rzd3b9dw-ruby-2.7.8"
+        }
+      }
+    }
+  }
+}
