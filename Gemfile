@@ -18,6 +18,11 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-twitter-plugin"
   gem "jekyll-youtube"
+  gem "jekyll-assets"
+  gem "jekyll-archives"
+  gem "jekyll-gist"
+  gem "jekyll-coffeescript"
+  gem "jekyll-admin"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

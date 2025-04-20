@@ -3,89 +3,99 @@ layout: page
 title: About me
 ---
 
-## Biography
+## Hello There! 👋 A Little About the Human Behind the Code
 
 ### Who-am-i
 
-| ![Jorge Moratilla's Avatar](/assets/img/jmoratilla.jpg) | ![Jorge Moratilla's real pic](/assets/img/20190327_162655.jpg) |
+| ![My Avatar](/assets/img/jmoratilla.jpg) | ![Chair - Keyboard interface picture](/assets/img/20190327_162655.jpg) |
 | :---:  | :-----: |
-| Avatar | Real me |
+| My Avatar | Chair - Keyboard interface picture |
 
-#### Facts
+#### Fun Facts & Quirks
 
-Spanish, +45 years old and counting.  Husband, father of 2 kids, and nerd. I
- spend all my free time tinkering with computers.  My curiosity is vastly
- larger than my available time. I'm always looking and trying new things.
+I'm a Spaniard, husband, father of two, and a self-proclaimed nerd (48+ and
+ counting!). My free time almost invariably involves tinkering with computers, 
+ driven by a curiosity that always seems larger than the clock allows. This 
+ means I'm constantly exploring new tech, even if just scratching the surface. 
+ This blog is where I share some of those explorations.
 
-#### Social Networks
+#### Let's Connect (Professionally!)
 
 | [![Github](/assets/img/github.png)](https://github.com/jmoratilla) | [![LinkedIn](/assets/img/linkedin.webp)](https://linkedin.com/in/moratilla/) |
 
-Note: I don't use Facebook, Twitter or Instagram.  I'm not a fan of social
- networks, but I use LinkedIn to keep in touch with my professional contacts.
+I tend to stay off most social media platforms like Facebook, Twitter, and
+ Instagram. My exception is LinkedIn, which I use specifically for maintaining 
+ professional contacts.
 
-#### Interests
+#### My Tech Story: From 8-bit Wonders to Virtual Realms
 
-My first computer was an Amstrad CPC6128, an old 8-bit computer from the 80's
- on which I developed my firsts programs, and loved the fantastical worlds it
- opened to me.  By the way, I still keep it functional.
+My journey into technology began in the 1980s with an Amstrad CPC6128.
+ This early 8-bit computer wasn't just where I developed my first programs; 
+ it sparked a lifelong fascination with the potential of computing and virtual 
+ worlds – remarkably, I still maintain the machine in working order.
 
-Since then I loved computers and virtual worlds.  Worked in Metaverse concept
- since 2005 (in Second Life, Entropia Project and others).  Now I use Unreal,
- Unity and Roblox to make virtual reality scenes (for personal use).
+This foundational interest naturally led me to explore virtual environments
+ more deeply. Since 2005, I've actively engaged with early metaverse concepts 
+ on platforms like Second Life and Entropia Project. My exploration continues 
+ today through personal projects, utilizing modern engines like Unreal, Unity, 
+ and Roblox to create virtual reality experiences.
 
-Gamer with no time, I'm mentoring my kids into a great gaming experience, not
- only as an entertainment, but a incredible way to become skillful and have an
- open mind.  Not only using computers, but board games like chess, cards, and
- RPG's.
+This interest extends to interactive systems in general. I view gaming,
+ encompassing digital platforms as well as strategic board games, card games, 
+ and RPGs, as a valuable medium for developing analytical skills and 
+ fostering creativity – a perspective I actively share through mentoring my 
+ children.
 
-#### Work Experience
+#### My Professional Adventures: Building, Teaching, and Leading
 
-Now more than 20 years of working experience, let me to go to the beginning.
-  I just began to work for a small ISDN and RTC Internet provider, developing
- and deploying systems and services for end users and customers.
+A seasoned IT professional with over two decades of experience, I embarked
+ on my career by developing and deploying internet systems and services for 
+ a burgeoning ISDN and RTC provider. This foundational role provided a strong 
+ understanding of end-user needs and infrastructure deployment.
 
-Then I worked for Sun Microsystems as certified instructor and field engineer,
- mainly focused on Internet Services and middleware software.  My favorite
- service was the Directory Server (LDAP service) used to provide identities
- to several millions of users.  I have been working in Identity products for
- a while and implemented it in several customers around Spain and Portugal.
+My tenure at Sun Microsystems marked a significant period of growth. As a
+ Certified Instructor and Field Engineer, I specialized in internet services 
+ and middleware solutions. I cultivated deep expertise in Identity Management, 
+ particularly with the Directory Server (LDAP), where I was instrumental in 
+ architecting and implementing identity solutions for millions of users across 
+ Spain and Portugal. My responsibilities extended to delivering comprehensive 
+ training on systems, identity management, and web technologies. Notably, I 
+ also broadened my instructional portfolio to include databases (MySQL) and 
+ specialized, bespoke courses such as NIS+ and Linux on S390 systems, 
+ demonstrating adaptability and a commitment to knowledge transfer. 
+ My enthusiasm for grid technologies led to independent exploration through 
+ personal projects utilizing Sun Grid Engine, JPPF, and Condor.
 
-As instructor I was involved in systems, identity and web technologies mostly
- all the time.  But also taught databases (MySQL) and rare and weird custom
- courses (like NIS+ for a ship, or how to use Linux on a S390 system).
+In 2011, seeking new challenges and a dynamic startup environment, I
+ transitioned to roles as a System Administrator and Agile Coach for systems. 
+ Since then, I have served as a System Administrator, Cloud Engineer, and 
+ DevOps advocate for companies including Taric, BQ, Kelisto, Oneclick, and 
+ Transparent Intelligence. In these roles, I championed DevOps culture and the 
+ principles outlined in "The Phoenix Project" to drive continuous improvement 
+ and operational efficiency. My experience has naturally led to taking ownership 
+ of technical projects, often functioning as both Project Manager and Systems 
+ Architect within small teams. I am now keen to leverage my extensive background 
+ to contribute more directly to development teams, offering guidance and support.
 
-I liked grid technologies but unfortunately I couldn't get a chance to work
- professionally on it, but I did several personal side projects using Sun Grid
- Engine, JPPF, and Condor.
+Beyond technical implementation, I have collaborated closely with Business
+ Product Owners, empowering them with data-driven insights through the development 
+ of relevant tools and reports. While my formal teaching role has evolved, I 
+ continue to conduct training sessions on DevOps and cloud platforms, reflecting 
+ my passion for education and knowledge sharing.
 
-In 2011 I moved out from Sun - Oracle world to learn more from startups and
- get a new life as system administrator and agile coach for systems.
+#### My Community Contributions: Connecting and Inspiring
 
-I have been working since then as system administrator, cloud engineer and DevOps
- evangelist since then for companies like Taric, BQ, Kelisto, Oneclick and Transparent Intelligence.  I promoted DevOps culture and practices, and the
- Three Ways as stated in the "The Phoenix project" by Gene Kim, Kevin Behr and George Spafford as the way to continuous improvement.
+As a former Madrid DevOps Coordinator, I played a pivotal role in revitalizing 
+ the local community. My focus extended beyond technological automation, 
+ emphasizing the cultural transformation inherent in DevOps adoption. I actively 
+ contributed as a speaker, aiming to provide relevant insights and guidance to 
+ the evolving landscape.
 
-I have been in charge of technical projects working in small teams as the PM as
- well as the systems architect because of my experience, but I would like to
- work more in the development side, helping and providing support to others.
+While my current community engagement is less frequent, I previously maintained
+ an active presence at XP and Agile conferences. These experiences were 
+ invaluable in honing my facilitation skills and deepening my understanding of 
+ how to effectively cultivate a DevOps culture within organizational settings.
 
-Not only that, I have been working with Business Product Owners, providing them
- with tools to get fresh data and reports to get the pulse on the business.
-
-As I left the professional teaching, I have been doing some small training
- sessions sometimes, teaching about DevOps and cloud providers.  I enjoy
- training, and it's something that definitively I would like to keep doing.
-
-#### Affiliations
-
-Madrid DevOps coordinator (not currently).  My main work here has been to power
- the community by providing a new way to manage the community and I have been an
- active speaker, working to provide more relevancy to the transforming culture
- than just the technologies used to automate.
-
-Not very active right now in communities, I used to attend XP and Agile conferences,
- trying to learn how to be a better facilitator and enforce the DevOps culture at
- my job.
-
-Very fan of FOSDEM and other OpenSource talks and conferences.
+I also hold a strong appreciation for the Open Source ethos, regularly 
+attending events such as FOSDEM to stay abreast of the latest developments and 
+advancements in the field.

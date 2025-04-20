@@ -2,11 +2,10 @@
 layout: page
 title: Projects
 description:
-  Not only work.  Passion.   In review.
+  Beyond the 9-to-5 - Fueled by Passion. Currently Reviewing. 
 ---
 
-In  this area I will describe personal projects I have finished or I have been
-working on.
+This space showcases my journey of continuous learning through hands-on side projects. Here you'll find a selection of completed and ongoing initiatives that allow me to explore new technologies and ideas.
 
 {% for item in site.projects %}
 

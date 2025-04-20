@@ -2,7 +2,7 @@
 layout: page
 title: Talks
 description:
-  Index of my personal talks
+  My Speaking Journey - Explore the Topics I've Covered.
 ---
 
 {% assign todos_by_date = site.talks | sort: "date" | reverse %}

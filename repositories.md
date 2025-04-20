@@ -2,7 +2,7 @@
 layout: page
 title: Repositories
 description:
-  Index of my personal repositories
+  What I've Been Building - A Highlight Reel of My Repositories.
 ---
 
 {% for item in site.repositories %}
