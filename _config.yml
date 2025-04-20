@@ -3,6 +3,7 @@
 lang: en
 title: Jorge Moratilla
 email: jorge@moratilla.com
+copyright:             © 2025. All rights reserved.
 description: >- # this means to ignore newlines until "baseurl:"
   Hey, I'm Jorge Moratilla – a perpetually curious IT pro who loves tinkering with tech.
     This website is my personal corner of the web for sharing insights, code snippets, 
@@ -19,8 +20,10 @@ author:
   email: jorge@moratilla.com
 
 # Build settings
+google_fonts: false
 markdown: kramdown
 theme: jekyll-theme-hydejack
+accent_image: /assets/img/background.jpg
 plugins:
   - jekyll-default-layout
   - jekyll-feed
@@ -30,18 +33,22 @@ plugins:
   - jekyll-twitter-plugin
   - jekyll-youtube
 
-
 # Google Analytics
 google_analytics: UA-124601299-1
 
 # Hydejack customization
-accent_image: /assets/img/background.jpg
-font:         Red Hat Text, Helvetica, Arial, sans-serif
-font_heading: Red Hat Text, Helvetica, Arial, sans-serif
-google_fonts: Red+Hat+Text:400,400i,500,500i,700,700i|Noto+Sans:500,500i,700,700i
+hydejack:
+  use_lsi:             true
+  no_navbar:           true
+  no_search:           true
+  cookies_banner:      true
+  no_toc:              false
+  no_third_column:     false
 
+# font:         Red Hat Text, Helvetica, Arial, sans-serif
+# font_heading: Red Hat Text, Helvetica, Arial, sans-serif
+# google_fonts: Red+Hat+Text:400,400i,500,500i,700,700i|Noto+Sans:500,500i,700,700i
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2025. All rights reserved.
 
 # Format of the permalinks
 permalink: /:categories/:year/:month/:title/
@@ -97,17 +104,27 @@ defaults:
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', '.circleci', '.devbox', 'doc', 'scripts', 'README.md', 'LICENSE.txt', '.github', '.gitignore', '.DS_Store']	
 
 # Building the Site
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+  with_frontmatter:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
+
 compress_html:
-  comments:  ["<!-- ", " -->"]
-  clippings: all
-  endings:   all
+  comments:            ["<!-- ", " -->"]
+  clippings:           all
+  endings:             all
+  ignore:
+    envs:              [development]
 
 sass:
-  style:     compressed
+  style:               compressed
 
-hydejack:
-  use_lsi:        true
-  no_navbar:      true
-  no_search:      true
-  use_lsi:        true
-  cookies_banner: true
