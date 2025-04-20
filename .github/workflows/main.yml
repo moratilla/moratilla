@@ -1,4 +1,4 @@
-name: Ruby
+name: Main
 
 on:
   push:
@@ -9,31 +9,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7.8
-          bundler-cache: true
+          # bundler-cache: true
       - run: |
           gem install bundler -v 2.4.22
           bundle install --jobs 4 --retry 3
           JEKYLL_ENV=production bundle exec jekyll build --lsi
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          # Artifact name
-          name: site
-          # Directory containing files to upload
-          path: _site
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment: production
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: site
       - name: Deploy to AWS S3
         uses: jakejarvis/s3-sync-action@master
         with:
@@ -43,10 +29,12 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "eu-west-1" # optional: defaults to us-east-1
-          SOURCE_DIR: "" # optional: defaults to entire repository
-      - name: Invalid cache
+          SOURCE_DIR: "_site" # optional: defaults to entire repository
+      - name: Invalidate cache
+        env:
+          CF_DOMAIN: 
         run: |
-          curl -X POST "https://api.cloudflare.com/client/v4/zones/${CF_DOMAIN}/purge_cache" \
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_DOMAIN }}/purge_cache" \
           -H "X-Auth-Email: ${{ secrets.CF_USERNAME }}" \
           -H "X-Auth-Key: ${{ secrets.CF_API_KEY }}" \
           -H "Content-Type: application/json" \
