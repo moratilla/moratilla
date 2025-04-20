@@ -2,13 +2,20 @@
 layout: post
 title: My laboratory
 categories: [laboratory, network]
+excerpt_separator: <!--more-->
 ---
+
+![A homelab datacenter in Neon Retro lights](/assets/img/2020-06-08-laboratory.png){:.lead}
+A homelab datacenter in Neon Retro lights
+{:.figure}
 
 This article is about how I have setup my personal Proxmox VE cluster, hosted by [kimsufi](https://kimsufi.com).
 
 ## Needs
 
 First of all, I was interested in work again with Proxmox VE as it's a virtualization platform I find very flexible (and low cost, of course).  This time I want to document it everything as a product itself, as a way to improve my planning and architecture skills.
+
+<!--more-->
 
 ### The MoSCoW method for requisites
 

@@ -2,7 +2,10 @@
 layout: post
 title: Logbook - 011 Retrospectiva 2022 (ESP)
 categories: [personal]
+excerpt_separator: <!--more-->
 ---
+
+![Foto patines](/assets/img/20220515_142427.jpg){:.lead}
 
 No sé si tiene mucho sentido publicar una retrospectiva este año.  Ha sido un
  año muy bueno en general, pero tan ocupado como el anterior o más.  Al final, 
@@ -12,9 +15,10 @@ No sé si tiene mucho sentido publicar una retrospectiva este año.  Ha sido un
 En fin, vamos a ir rapidito con el resumen del año, revisar los propósitos y 
  pensar cómo afrontar el año que viene.
 
+<!--more-->
+
 Aquí pongo el link a [mis propósitos del 2022](https://www.moratilla.com/personal/2021/01/propósitos-2022/), para no repetirme.
 
-![Foto patines](/assets/img/20220515_142427.jpg){:.lead}
 
 
 ## Salud

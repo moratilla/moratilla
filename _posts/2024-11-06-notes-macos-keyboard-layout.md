@@ -2,6 +2,7 @@
 layout: post
 title: Notes for a future me on MacOS keyboard layouts
 categories: [Apple, MacOS, keyboard]
+excerpt_separator: <!--more-->
 ---
 
 ![My Keyboard and Trackball](/assets/img/20241106_keyboard.jpeg){:.lead}
@@ -10,6 +11,8 @@ I've been using MacOS for a year and a half now, sharing my keyboard and trackba
 Here are some notes for my future self about MacOS keyboard layouts:
 
 When it comes to keyboard layouts, MacOS has a few tricks up its sleeve. Here are some things to keep in mind:
+
+<!--more-->
 
 - It doesn't support US International PC ANSI layout well.  If you want to use accents and other european characters like 'ñ' or 'ç',
  you have to use the US International layout but it comes with some caveats. If you are using a small PC keyboard like mine, you will find you don't have a key between the 'ESC' and the 'TAB' keys.

@@ -2,20 +2,19 @@
 layout: post
 title: End of sprint summary
 categories: [personal, website]
+excerpt_separator: <!--more-->
 ---
 
-
+![Sad batman meet sad keanu](/assets/img/sad-batman-keanu.jpg){:.lead}
+Sometimes you defeat the sadness, sometimes the sadness defeats you
+{:.figure}
 
 This week has been horrible.  Very low performance because demotivation and low
  energy.  Family issues last weekend carried all this negative energy to me.
   So I'm writing just the good things in order to be more positive and focus on
 the good things I have been doing.
 
-## Mood
-
-![Sad batman meet sad keanu](/assets/img/sad-batman-keanu.jpg){:.lead}
-Sometimes you defeat the sadness, sometimes the sadness defeats you
-{:.figure}
+<!--more-->
 
 ## Website progress
 

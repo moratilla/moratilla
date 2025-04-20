@@ -1,0 +1,19 @@
+---
+---
+/* Override theme defaults */
+$base-font-family: Hack, monospace;
+$base-font-size: 1.5rem;
+$brand-color: orange;
+
+/* load _sass/hydejack.scss */
+// @import "hydejack";
+// @import "pooleparty";
+// @import "pro";
+// @import "tippyjs";
+
+/* Put any custom CSS here */
+
+h1 {
+  padding-bottom: 2px;
+  color: $brand-color;
+}

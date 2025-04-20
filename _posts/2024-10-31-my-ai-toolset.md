@@ -2,12 +2,15 @@
 layout: post
 title: My AI toolset for 2024
 categories: [laboratory, AI, tools]
+excerpt_separator: <!--more-->
 ---
+
+![Sunrise of Robots](/assets/img/robots.png){:.lead}
 
 As we step into 2024, I'm excited to share my collection of AI tools that have been useful
  in making my day, at work, and personal tasks more efficient.
 
-![Sunrise of Robots](/assets/img/robots.png){:.lead}
+<!--more-->
 
 I turn on my laptop with ollama started from the login with model llama3.2 3b loaded, which is a great LLM
  for daily interactions. I've been integrating it with anythingLLM to test its

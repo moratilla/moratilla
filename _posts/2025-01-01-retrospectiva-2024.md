@@ -2,9 +2,10 @@
 layout: post
 title: Logbook - 012 Retrospectiva 2024 (ESP)
 categories: [personal]
+excerpt_separator: <!--more-->
 ---
 
-![Foto de portada](assets/img/2024-05-moto.jpg){:lead}
+![Foto de portada](/assets/img/2024-05-moto.jpg){:lead}
 
 Este año ha sido un año muy intenso.   Estaba revisando las fotos para ver qué poner
  de portada y me doy cuenta de que ha sido un año con muchas cosas buenas, más que las
@@ -15,6 +16,8 @@ Voy a hacer una enumeración de los hitos más importantes del año y de cómo m
 
 Siguiendo las anteriores retrospectivas, empezaré por la salud, luego seguiré con el 
  dinero y acabaré con la sección de amor.
+
+<!--more-->
 
 ## Salud
 
@@ -60,13 +63,13 @@ Lo que más recordaré de este año relacionado con el amor serán estas tres co
 
 * La llegada de Timón a nuestras vidas.
 
-![Timón](assets/img/202405_timon.JPG)
+![Timón](/assets/img/202405_timon.JPG)
 Nuestro nuevo bichito.
 {:feature}
 
 * El fallecimiento de mis tíos Luis y Jose Carlos, con muy poco tiempo entre ellos nos sorprendió, más que nada por las fechas, ya que coincidieron con el aniversario del de mi padre, allá por 2005.
 
-![Los tres motoristas](assets/img/los_3_motoristas.jpg)
+![Los tres motoristas](/assets/img/los_3_motoristas.jpg)
 Esto es lo que deseo que estén haciendo en estos momentos.
 {:feature}
 

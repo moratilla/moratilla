@@ -2,7 +2,12 @@
 layout: post
 title: Website Upgrade
 categories: [personal, website]
+excerpt_separator: <!--more-->
 ---
+
+![Men at work](/assets/img/men-at-work.jpeg){:.lead}
+Men at work...
+{:.figure}
 
 During the past week I have made some work to upgrade and improve this website.
 
@@ -11,6 +16,8 @@ The purpose is to maintain a web site more easily using the tools I frequently
 
 This version of the website is based on [Jekyllrb](https://jekyllrb.com/) static
  website generator.
+
+<!--more-->
 
 Previous version was based on Google Blogger and the first version was done
  using last versions of MamboCMS and first versions of JoomlaCMS.

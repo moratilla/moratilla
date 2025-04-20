@@ -2,11 +2,15 @@
 layout: post
 title: Logbook - 009 Retrospectiva 2021 (ESP)
 categories: [personal]
+excerpt_separator: <!--more-->
 ---
+
 
 Aquí estamos, valorando nuestros logros y fracasos una vuelta al Sol después.
 
 Voy a entrar a la retrospectiva directamente, ya que aquí está el artículo que hice sobre [propósitos para 2021](https://www.moratilla.com/personal/2021/01/propósitos-2021/).
+
+<!--more--->
 
 ## Retrospectiva
 

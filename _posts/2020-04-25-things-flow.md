@@ -2,6 +2,7 @@
 layout: post
 title: Website flows smoothly
 categories: [personal, website]
+excerpt_separator: <!--more-->
 ---
 
 Another week confined at home because of the COVID-19 disease outbreak, so all that I can do is to play with kids and clean the house, but I had some time to do some personal work.
@@ -13,6 +14,7 @@ This week I have accomplished several tasks and I am working on the next ones.
   As I was working fast, I closed the first sprint and opened a new one, to
  include things once the website was alive.  Here I am going to summarize the work done and later I will create posts to describe in deep the things I have been doing.
 
+<!--more-->
 
 The first sprint main's goal was to develop a new website as I published before,
  this time hosted by me, instead of simply using a blog service or platform.  I 
