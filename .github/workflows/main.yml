@@ -30,9 +30,11 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "eu-west-1" # optional: defaults to us-east-1
           SOURCE_DIR: "_site" # optional: defaults to entire repository
-      - name: Invalid cache
+      - name: Invalidate cache
+        env:
+          CF_DOMAIN: 
         run: |
-          curl -X POST "https://api.cloudflare.com/client/v4/zones/${CF_DOMAIN}/purge_cache" \
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_DOMAIN }}/purge_cache" \
           -H "X-Auth-Email: ${{ secrets.CF_USERNAME }}" \
           -H "X-Auth-Key: ${{ secrets.CF_API_KEY }}" \
           -H "Content-Type: application/json" \
