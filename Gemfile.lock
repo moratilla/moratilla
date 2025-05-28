@@ -20,6 +20,7 @@ GEM
       fiber-annotation
       fiber-local (~> 1.1)
       json
+    csv (3.3.4)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -109,6 +110,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     mercenary (0.4.0)
     metrics (0.12.2)
     mini_portile2 (2.8.9)
@@ -217,6 +219,7 @@ PLATFORMS
 
 DEPENDENCIES
   classifier-reborn
+  csv
   html-proofer
   jekyll (~> 4.3.4)
   jekyll-default-layout
@@ -227,6 +230,7 @@ DEPENDENCIES
   jekyll-theme-hydejack (~> 9.2.1)
   jekyll-twitter-plugin
   jekyll-youtube
+  logger
   nokogiri (>= 1.11.0.rc4)
   rake
   tzinfo (~> 2.0.4)
