@@ -5,3 +5,4 @@ _site
 errors
 *.bak
 .bundle
+vendor/bundle

@@ -10,6 +10,9 @@ gem "jekyll-theme-hydejack", "~> 9.2.1"
 gem "html-proofer"
 
 # If you have any plugins, put them here!
+gem "rake"
+gem "csv"
+gem "logger"
 group :jekyll_plugins do
   gem "jekyll-default-layout"
   gem "jekyll-feed"
