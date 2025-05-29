@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
 gem "nokogiri", ">= 1.11.0.rc4"
-gem "jekyll", "~> 4.3.4"
+gem "jekyll", "~> 4.3"
+gem "google-protobuf", "~> 3.20"
 
 # I'm using this hidejack theme
 gem "jekyll-theme-hydejack", "~> 9.2.1"
