@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem "nokogiri", ">= 1.11.0.rc4"
 gem "jekyll", "~> 4.3"
 gem "google-protobuf", "~> 3.20"
 
@@ -9,6 +8,7 @@ gem "jekyll-theme-hydejack", "~> 9.2.1"
 
 # Test links and HTML validity
 gem "html-proofer"
+gem "nokogiri", "~> 1.18"
 
 # If you have any plugins, put them here!
 gem "rake"
