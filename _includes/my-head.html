@@ -17,3 +17,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 <!-- Hotjar Tracking Code for www.moratilla.com -->
+
+<!-- Custom CSS trick -->
+{% if page.custom_css %}
+{% for stylesheet in page.custom_css s %}
+  /assets/css/{{ stylesheet }}.css">
+{% endfor %}
+{% endif %}
