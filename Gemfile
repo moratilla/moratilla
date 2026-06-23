@@ -8,7 +8,7 @@ gem "jekyll-theme-hydejack", "~> 9.2.1"
 
 # Test links and HTML validity
 gem "html-proofer"
-gem "nokogiri", "~> 1.18"
+gem "nokogiri", "~> 1.19"
 
 # If you have any plugins, put them here!
 gem "rake"
